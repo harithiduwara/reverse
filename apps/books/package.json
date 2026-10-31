@@ -1,0 +1,14 @@
+{
+  "name": "books",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Self-hosted invoicing, bills, bookkeeping and reports for a small business.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server/main.mjs",
+    "test": "node --disable-warning=ExperimentalWarning --test \"test/*.test.mjs\""
+  }
+}
